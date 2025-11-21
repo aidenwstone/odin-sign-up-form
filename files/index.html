@@ -17,5 +17,42 @@
       Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </p>
   </header>
+
+  <main>
+    <div class="info">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+
+    <div class="form">
+      <h2>Let's do this!</h2>
+
+      <form action="https://httpbin.org/post" method="post" id="sign-up-form">
+        <div class="form-row">
+          <label for="first_name">First Name</label>
+          <input type="text" name="first_name" id="first_name" required>
+          <label for="last_name">Last Name</label>
+          <input type="text" name="last_name" id="last_name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+          <label for="phone_number">Phone Number</label>
+          <input type="tel" name="phone_number" id="phone_number" required>
+        </div>
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+          <label for="password_confirmation">Confirm password</label>
+          <input type="password" name="password_confirmation" id="password_confirmation" required>
+        </div>
+      </form>
+    </div>
+
+    <div class="buttons">
+      <button class="sign-up-button" type="submit" form="sign-up-form">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+  </main>
 </body>
 </html>
