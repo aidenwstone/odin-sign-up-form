@@ -26,7 +26,7 @@ body {
 
 header {
   position: relative;
-  width: 40vw;
+  flex: 40;
   background-image: url(../images/Green\ Leaf\ Plant\ Photo.jpg);
   background-size: cover;
 }
@@ -62,4 +62,8 @@ header {
   bottom: 15px;
   font-size: 0.8rem;
   text-align: center;
+}
+
+main {
+  flex: 60;
 }
