@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'NorseBold';
-    src: url('../fonts/Norse-Bold.woff2') format('woff2'),
-        url('../fonts/Norse-Bold.woff') format('woff');
+    src: url('./fonts/Norse-Bold.woff2') format('woff2'),
+        url('./fonts/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -32,7 +32,7 @@ body {
 header {
   position: relative;
   flex: 40;
-  background-image: url(images/Green\ Leaf\ Plant\ Photo.jpg);
+  background-image: url(./images/Green\ Leaf\ Plant\ Photo.jpg);
   background-size: cover;
 }
 
